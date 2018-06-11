@@ -1,0 +1,141 @@
+body {
+    font-family: 'Coiny', cursive !important;
+    background-color: slateblue !important;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* NAVBAR----------------------------------------------------------------------------- */
+
+nav {
+    background-color: rosybrown;
+    border-bottom: 0px solid #e7e7e7;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: slateblue;
+    font-size: 35px;
+    padding: 15px 10px;
+    display: inline-block;
+    border: solid 3px slateblue;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: plum;
+    font-size: 35px;
+    padding: 15px 10px;
+    display: inline-block;
+    border: solid 3px slateblue;
+    border-radius: 10px;
+    background-color: slateblue;
+}
+
+nav ul li a.active {
+    background-color: lightpink;
+}
+
+nav ul li a.active:hover {
+    background-image: url(../img/giphy.gif);
+    background-size: 100%;
+    color: transparent;
+}
+
+#container-ul {
+    overflow: hidden;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+#imgprincipal {
+    width: 100%;
+    border-radius: 30px !important;
+}
+
+p {
+    padding-top: 20px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+#imguser {
+    width: 100%;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+#form {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#email {
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    border-style: solid;
+    border-color: rgb(173, 173, 173);
+    width: 400px;
+    border-width: 1px;
+}
+
+button {
+    background-color: #0f2741;
+    padding: 5px 10px;
+    border: 1px solid #0b806a;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 0 5px 5px 0;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+#icon {
+    font-size: 300%;
+    color: rgb(13, 55, 182);
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+footer {
+    background-color: #0f2741 !important;
+    color: white;
+    margin-top: 35px;
+    padding-bottom: 120px;
+}
+
+.footerleft {
+    float: left;
+}
+
+.footerright {
+    float: right;
+}
+
+li {
+    display: inline-block;
+}
